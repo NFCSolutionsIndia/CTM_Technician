@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">CTM</string>
+
+
+    <!--    Login screen    -->
+    <string name="login">नियम और शर्ते</string>
+    <string name="customer_care">नियम और शर्ते</string>
+    <string name="username">मोबाइल नंबर</string>
+    <string name="password">पासवर्ड</string>
+    <string name="strLogin_Empty_Number">मोबाइल नंबर cannot be empty</string>
+    <string name="strLogin_Invalid_Mobile">Please enter a valid मोबाइल नंबर</string>
+    <string name="strLogin_Invalid_Password">Enter valid पासवर्ड</string>
+    <string name="strLogin_Empty_Password">पासवर्ड cannot be empty</string>
+
+
+    <!--         Dashboard     -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="runtime_permissions_txt">Please enable all permissions from app settings.</string>
+    <string name="dashboard">PM Dashboard</string>
+    <string name="techdashboard">Dashboard</string>
+
+
+    <!--  Dialog text   -->
+    <string name="strAlertTitle">Alert!</string>
+    <string name="strAlert_OK">OK</string>
+    <string name="strAlert_Yes">Yes</string>
+    <string name="strAlert_No">No</string>
+    <string name="ok">Ok </string>
+    <string name="strAlertMessage_Exit">Are you sure you want to exit?</string>
+
+    <!--  Detail screen   -->
+    <string name="detailpageheader">Detailed Page</string>
+    <string name="radiustext"> You are 30 meters away from site radius</string>
+
+    <string name="headtext">Tower Checklist</string>
+    <string name="sitepm">Site PM Checklist</string>
+    <string name="checklisttext">Tower</string>
+    <string name="assettext">Detailed Page</string>
+    <string name="planneddetailtext">Planned Event Detailed Page</string>
+    <string name="supassettext">Checklist Detailed Page</string>
+
+    <string name="reaontext">Reason for the Alarm </string>
+    <string name="correcivemeasure">Corrective Measure</string>
+    <string name="btnsubmit">Submit</string>
+    <string name="btnstart">Start</string>
+
+    <string name="usedmw">No of used MW mounts on Tower</string>
+    <string name="unusedmw">No of unused MW mounts on Tower</string>
+    <string name="usedrru">No of used RRU mounts on Tower</string>
+    <string name="usedgsm">No of used GSM/CDMA mounts on Tower</string>
+    <string name="checknuts">Conditions of Check nuts?</string>
+    <string name="upload">Upload</string>
+    <string name="uploadphoto">Upload Tower Photo</string>
+
+
+    <!--  Success screen   -->
+
+    <string name="confirmation">Confirmation</string>
+    <string name="succestext">You have Submitted \n the ticket successfully.</string>
+    <string name="succesplantext">Ticket created successfully.</string>
+    <string name="status">Status : </string>
+    <string name="ticketid">Ticket Id : </string>
+    <string name="textgoto">Go to Dashboard</string>
+
+
+    <!-- Sites list     -->
+    <string name="sites">Sites</string>
+    <string name="open">Open</string>
+    <string name="sysgen"> System Generated </string>
+    <string name="planned"> Planned Event  </string>
+    <string name="closed">Closed</string>
+    <string name="overdue">Overdue</string>
+    <string name="approval">Pending</string>
+    <string name="wtapproval">Waiting Approval</string>
+
+
+    <!--    PM Activity History-->
+
+    <string name="pmhistory">PM Activity History</string>
+
+    <!--  Language text   -->
+    <string name="language_title" translatable="false">Change language (or) भाषा चुनिए </string>
+
+
+    <!--  Messages text   -->
+    <string name="strErrorMessage">Oops! There is some problem in processing your request Please try again.</string>
+    <string name="something">Something went wrong please try again</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="languages" translatable="false">
+        <item>English</item>
+        <item>हिंदी</item>
+<!--
+        <item>मराठी</item>
+-->
+    </string-array>
+
+    <!--     Sidemenu list items   -->
+    <string-array name="drawerItems">
+        <item>Dashboard</item>
+        <item>Sites</item>
+        <item>PM Activity History</item>
+        <item>Settings</item>
+    </string-array>
+
+
+    <string-array name="drawerImages">
+        <item>dashboard</item>
+        <item>tower</item>
+        <item>pmhistory</item>
+        <item>settings</item>
+    </string-array>
+
+    <!--    Plannes Events-->
+
+    <string name="Planevents">Planned Event</string>
+
+    <!--     Sidemenu list items   -->
+    <string-array name="supdrawerItems">
+        <item>PM Dashboard</item>
+        <item>Technicians</item>
+        <!--
+                <item>PM Activity History</item>
+        -->
+        <item>Planned Events</item>
+
+        <!--     <item>Request for Replacement</item>-->
+        <item>Settings</item>
+    </string-array>
+
+    <string-array name="supdrawerImages">
+        <item>dashboard</item>
+        <!-- <item>schedule</item>-->
+        <item>technicians</item>
+        <!--
+                <item>pmhistory</item>
+        -->
+
+        <!--  <item>replacement</item>-->
+        <item>schedule</item>
+
+        <item>settings</item>
+    </string-array>
+
+
+    <!-- Technician list     -->
+    <string name="techies">Technicians</string>
+    <string name="techiesdsetails">Technician Details</string>
+    <string name="techiesname">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="maindashboard">Dashboard</string>
+    <string name="tickethistory">Ticket History</string>
+
+
+    <string name="nogps">Location Not Found. Error in Network/GPRS Connection</string>
+    <string name="nointernet">No Internet connection, Please check your network connection and try again</string>
+
+
+</resources>
+

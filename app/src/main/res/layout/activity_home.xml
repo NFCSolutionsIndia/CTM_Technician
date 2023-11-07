@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <RelativeLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/menu_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_60"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:src="@mipmap/menuopen" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_60"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/techdashboard"
+            android:textColor="@color/activecolor"
+            android:textSize="@dimen/text_head" />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/menu"
+        android:background="@color/bgcolor">
+
+        <include
+            layout="@layout/app_bar_main"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <RelativeLayout
+            android:id="@+id/list_slidermenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:layout_marginEnd="-65dp"
+            android:layout_marginRight="-65dp"
+            android:background="@drawable/gradiantheader"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/nav_drawer_bottom_line"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_below="@+id/nav_drawer_bottom_line"
+                android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:id="@+id/menu_image2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_60"
+                    android:layout_marginLeft="@dimen/dp_20"
+                    android:src="@mipmap/close"
+
+                    />
+
+
+            </RelativeLayout>
+
+            <!-- The navigation drawer -->
+            <ListView
+                android:id="@+id/left_drawer"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/navtop"
+                android:layout_below="@+id/r1"
+                android:layout_marginTop="20dp"
+                android:choiceMode="singleChoice"
+                android:divider="@color/white" />
+
+            <LinearLayout
+                android:id="@+id/navtop"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:src="@mipmap/profile"
+                    app:civ_border_color="@color/light_gray"
+                    app:civ_border_width="2dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/sidemenu_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Technician Name"
+                        android:textColor="@color/textcolor"
+                        android:textSize="@dimen/dp_18" />
+
+                    <TextView
+                        android:id="@+id/sidemenu_contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9642123468"
+                        android:textColor="@color/subtextcolor"
+                        android:textSize="@dimen/dp_14" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/signout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:src="@mipmap/logout" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.core.widget.DrawerLayout>
+</RelativeLayout>

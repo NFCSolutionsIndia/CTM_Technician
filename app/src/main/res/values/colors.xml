@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#55D0D7</color>
+    <color name="colorPrimaryDark">#4794ED</color>
+    <color name="colorAccent">#4794ED</color>
+    <color name="white">#ffffff</color>
+
+    <color name="black">#000000</color>
+    <color name="subtextcolor">#8d8d8d</color>
+    <color name="activecolor">#4794ed</color>
+    <color name="normalcolor">#c5cfd9</color>
+    <color name="blue">#0191ff</color>
+    <color name="grey">#757575</color>
+    <color name="light_gray">#a0a6ac</color>
+    <color name="very_light_gray">#f1f0f0</color>
+    <color name="gray_dark">#222222</color>
+    <color name="gray">#676767</color>
+    <color name="transparent">#11000000</color>
+    <color name="transparent_white">#7fD1D1D1</color>
+    <color name="red">#e62041</color>
+    <color name="lightred">#f4c1c9</color>
+    <color name="startcolor">#4794ED</color>
+    <color name="endcolor">#55D0D7</color>
+    <color name="textcolor">#303030</color>
+    <color name="holdertextcolor">#CFD7E0</color>
+
+    <color name="closedtextcolor">#179273</color>
+    <color name="overduetextcolor">#ff5800</color>
+    <color name="pendingtextcolor">#fd9a00</color>
+    <color name="opentextcolor">#0191ff</color>
+
+
+
+    <color name="bgcolor">#fbfbfb</color>
+    <color name="tabcolor">#EAEDF4</color>
+    <color name="linecolor">#1874DF</color>
+    <color name="linecolorgray">#E5E5E5</color>
+    <color name="supticketcolor">#ededed</color>
+    <color name="green">#07bf87</color>
+
+    <color name="supstartcolor">#359378</color>
+    <color name="supendcolor">#20c289</color>
+
+
+
+
+</resources>

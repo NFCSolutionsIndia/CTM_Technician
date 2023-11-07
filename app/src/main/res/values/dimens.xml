@@ -1,0 +1,80 @@
+<resources>
+    <!-- text sizes -->
+    <dimen name="text_10">10sp</dimen>
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_19">19sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_21">21sp</dimen>
+    <dimen name="text_22">22sp</dimen>
+    <dimen name="text_30">30sp</dimen>
+    <dimen name="fontsize18">18sp</dimen>
+    <!-- Button sizes -->
+    <dimen name="button_12">12dp</dimen>
+    <dimen name="button_14">14dp</dimen>
+    <dimen name="button_18">18dp</dimen>
+    <dimen name="button_22">22dp</dimen>
+    <dimen name="textapperance">20sp</dimen>
+    <dimen name="ack_margin">10dp</dimen>
+    <dimen name="ack_textsize">15sp</dimen>
+    <dimen name="font_size">14sp</dimen>
+    <dimen name="font_sizesmall">8sp</dimen>
+
+    <dimen name="action_button_padding">0dp</dimen>
+
+
+
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_17">17dp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_28">28dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_35">35dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_45">45dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_85">85dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_120">120dp</dimen>
+    <dimen name="dp_140">140dp</dimen>
+    <dimen name="dp_145">145dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+    <dimen name="dp_170">170dp</dimen>
+    <dimen name="dp_180">180dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_210">210dp</dimen>
+    <dimen name="dp_220">220dp</dimen>
+    <dimen name="dp_240">240dp</dimen>
+    <dimen name="dp_245">245dp</dimen>
+    <dimen name="dp_250">250dp</dimen>
+    <dimen name="dp_260">260dp</dimen>
+    <dimen name="dp_270">270dp</dimen>
+    <dimen name="dp_300">300dp</dimen>
+    <dimen name="dp_400">400dp</dimen>
+
+    <dimen name="tab_text_size">12dp</dimen>
+    <dimen name="text_head">18dp</dimen>
+
+
+</resources>
